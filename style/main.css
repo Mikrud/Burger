@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    background-color: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 .text {
     color: #FAF9F9;
-    flex: 0 0 80px;
+    flex: 0 0 580px;
     padding-top: 170px;
     padding-bottom: 170px;
 }
@@ -31,7 +31,7 @@ body {
 h1 {
     font-size: 120px;
     font-weight: 800;
-    line-height: 140px;
+    line-height: 120px;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -73,9 +73,15 @@ a {
 }
 
 .bg {
+    /*  position: absolute;
+    width: 432px;
+    height: 862px;
+    left: 1118px;
+    top: 0px; */
     width: 432px;
     height: 100%;
-    background-color: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
 }
 
 img {
